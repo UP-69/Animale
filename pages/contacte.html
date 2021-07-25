@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../images/pawprint.png" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>Caini</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="../index.html">
+            Câini
+            <i class="fas fa-dog logo"></i>
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+
+    <div class="page-container">
+
+        <aside id="side-menu">
+            <a href="../index.html">
+                <i class="fas fa-house-user"></i>
+                Home
+            </a>
+            <a href="gallery.html">
+                <i class="far fa-images"></i>
+               Gallery
+            </a>
+            <a href="event.html">
+                <i class="fas fa-calendar-day"></i>
+                Evenimente
+            </a>
+            <a href="contacte.html">
+                <i class="far fa-address-card"></i>
+                Contacte
+            </a>
+            <a href="comanda.html">
+                <i class="fas fa-shopping-cart"></i>
+                Comanda
+            </a>
+
+            <a href="curiozitati.html">
+                <i class="fas fa-search"></i>
+                Curiozitati
+            </a>
+
+            <a href="informatii.html">
+                <i class="fas fa-info-circle"></i>
+                Informatii suplimentare
+            </a>
+        </aside>
+
+        <main>
+            <h2 class="title">Contacte</h2>
+
+            <div class="row">
+
+                <div class="col-50">
+                    <h3>Contacteaza-ne daca: </h3>
+
+                    <ul class="contact-list">
+                        <li>Doresti sa adaugi un eveniment</li>
+                        <li>Cauti un loc de voluntariat</li>
+                        <li>Doresti sa gasesti un adapost de caini</li>
+                        <li>Ai sugestii/propuneri</li>
+                    </ul>
+                </div>
+
+                <div class="col-50">
+                    <h3>Date de contact:</h3>
+
+                    <ul class="contact-list">
+                        <li><b>Adresa:</b> satul Tataresti</li>
+                        <li><b>Telefon:</b>022 000 101</li>
+                        <li><b>Ore de lucru: </b>09:00 - 17:00</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22162.65726583623!2d28.32532861019702!3d46.02452071312272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b640ce4ebfff53%3A0xa2fcc52ab44c6b1e!2z0KLRjdGC0Y3RgNC10YjRgtGMLCDQnNC-0LvQtNCw0LLQuNGP!5e0!3m2!1sru!2s!4v1627216372402!5m2!1sru!2s"
+                        style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+
+                <div class="col-50">
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="centered">Lasa un mesaj</h3>
+                            <input type="text" placeholder="Nume" required/>
+                            <input type="email" placeholder="Email" required/>
+                            <textarea rows="3" placeholder="Mesaj"></textarea>
+                            <input type="submit" value="Trimite" />
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
